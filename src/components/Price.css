@@ -1,0 +1,106 @@
+.flex-price {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 990px;
+}
+
+.price {
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+.price.card-3 .price-block1 {
+    background-color: goldenrod;
+}
+
+.price-block1 {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.price-block2 {
+    padding: 25px 40px 50px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.price-type {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.price-amout {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 2.3em;
+}
+
+.month {
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
+.price-block1 a {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    gap: 12px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.price-block1 a i {
+    display: flex;
+}
+
+.price-block2 ul li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 15px;
+}
+
+.price-block2 ul li:not(:first-child) {
+    margin-top: 14px;
+}
+
+.price-block2 ul li span {
+    font-weight: 700;
+}
+
+.price.card-1 ul li:nth-child(3) {
+    opacity: 0.4;
+}
+
+.price.card-1 ul li:nth-child(4) {
+    opacity: 0.4;
+}
+
+.price.card-1 ul li:nth-child(5) {
+    opacity: 0.4;
+}
+
+.price.card-1 ul li:nth-child(6) {
+    opacity: 0.4;
+}
+
+.price.card-2 ul li:nth-child(5) {
+    opacity: 0.4;
+}
+
+.price.card-2 ul li:nth-child(6) {
+    opacity: 0.4;
+}
+

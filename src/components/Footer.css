@@ -1,0 +1,128 @@
+.Footer {
+    background-color: black;
+    color: white;
+    min-height: 50vh;
+    padding: 70px 120px;
+}
+
+.footer-flex {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.lists {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-logo {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+}
+
+.footer-part {
+    color: white;
+}
+
+.footer-desc {
+    margin: 25px 0px;
+    font-size: 15px;
+    line-height: 1.9em;
+    max-width: 450px;
+}
+
+.subs-flex {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    max-width: 450px;
+}
+
+.subs-flex input {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.subs-flex button {
+    font-family: "Poppins", sans-serif;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.subs-flex button:hover {
+    background-color: mediumblue;
+}
+
+.part-head {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-links {
+    margin-top: 25px;
+}
+
+.footer-links li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links li:not(:first-child) {
+    margin-top: 14px;
+}
+
+.footer-links li a {
+    color: grey;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 15px;
+    font-size: 14.5px;
+}
+
+.footer-bottom {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer-copyright {
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer-sn {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-sn a {
+    display: flex;
+    color: white;
+}
+

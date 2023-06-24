@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.landing {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0px 120px;
+}
+
+.bg {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.overlay {
+    background: linear-gradient(to left, blue, red);
+    mix-blend-mode: overlay;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+
+.about {
+    background-color: white;
+    min-height: 100vh;
+    padding: 100px 120px;
+    z-index: 1;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.block.top {
+    margin-top: 80px;
+}
+

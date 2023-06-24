@@ -1,0 +1,31 @@
+.LandingFooter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 100px;
+    padding: 0px 120px;
+    z-index: 1;
+}
+
+.sn {
+    display: flex;
+    gap: 23px;
+}
+
+.sn a {
+    color: white;
+    display: flex;
+    font-size: 23px;
+}
+
+.LandingFooter p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+

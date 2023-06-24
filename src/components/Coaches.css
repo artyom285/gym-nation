@@ -1,0 +1,106 @@
+.Coaches {
+    display: grid;
+    max-width: 1000px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 280px);
+}
+
+.Coaches.main {
+    margin-top: 100px;
+}
+
+.coach {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+.coach::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.coach:hover img {
+    transform: scale(1.1);
+}
+
+.coach:hover::before {
+    opacity: 1;
+}
+
+.coach.coach-1 {
+    grid-row: span 2;
+}
+
+.coach.coach-5 {
+    grid-row: span 2;
+}
+
+.coach.coach-6 {
+    grid-column: span 2;
+}
+
+.coach img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.item-text-coach {
+    background: linear-gradient(to top, black, transparent);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 35px;
+    z-index: 1;
+}
+
+.class {
+    text-transform: uppercase;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.time-coaches {
+    background-color: blue;
+    width: fit-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    margin-top: 7px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+.coach-sn {
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.coach-sn a {
+    display: flex;
+}
+

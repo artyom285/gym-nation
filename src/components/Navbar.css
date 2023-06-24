@@ -1,0 +1,84 @@
+.Navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 120px;
+    transition: 0.3s;
+}
+
+.navbar.active {
+    background-color: black;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    height: 80px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+
+.navbar ul {
+    position: absolute;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    gap: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar ul li a {
+    color: white;
+    position: relative;
+}
+
+.navbar ul li a::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 0%;
+    bottom: -10px;
+    height: 1.5px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover::before {
+    width: 100%;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    gap: 23px;
+    font-size: 24px;
+}
+
+.icons a {
+    color: white;
+    display: flex;
+    font-size: 24px;
+}
+
+.icons button {
+    cursor: pointer;
+    display: flex;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.menu {
+    cursor: pointer;
+}
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.sidebar {
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+}
+
+.sidebar.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.logo {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+
+.sidebar ul {
+    padding: 50px 0px;
+}
+
+.sidebar ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar ul li:not(:nth-child(1)) {
+    margin-top: 15px;
+}
+
+.sidebar ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.side-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 0px 120px;
+}
+
+.side-top.bottom {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.close-side {
+    display: flex;
+    cursor: pointer;
+}
+

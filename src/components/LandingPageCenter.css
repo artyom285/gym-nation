@@ -1,0 +1,52 @@
+.LandingPageCenter {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 150px 0px;
+    z-index: 1;
+}
+
+.heading {
+    font-weight: 800;
+    font-size: 2.5em;
+    line-height: 1.3em;
+}
+
+.desc {
+    max-width: 500px;
+    line-height: 1.9em;
+    margin: 25px 0px calc(25px + 1.3em) 0px;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.links a:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+
+.links a:nth-child(1):hover {
+    background-color: mediumblue;
+}
+
+
+.links a i {
+    display: flex;
+}
+

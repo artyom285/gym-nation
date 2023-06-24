@@ -1,0 +1,284 @@
+@media(max-width: 1250px) {
+    .contact-info, .contact-form {
+        position: relative;
+        box-shadow: initial;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .contact-info {
+        height: 550px;
+        max-width: fit-content;
+        min-width: initial;
+    }
+
+    .contact-form {
+        padding: 40px;
+    }
+
+    form {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .lists {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer-copyright {
+        color: white;
+    }
+}
+
+@media(max-width: 1200px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .block-image {
+        max-width: 500px;
+    }
+
+    .price-block1 a i {
+        display: none;
+    }
+
+    .subs-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .flex-price {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .price.card-2 {
+        transform: scale(1);
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        max-width: 100%;
+        height: 425px;
+    }
+
+    .contact-info ul li {
+        max-width: 100%;
+    }
+
+    .contact-form {
+        height: fit-content;
+    }
+}
+
+@media(max-width: 1000px) {
+    .landing, .navbar, .LandingFooter, .side-top {
+        padding: 0px 80px;
+    }
+
+    .sidebar ul li:not(:nth-child(1)) {
+        margin-top: 14px;
+    }
+
+    .Footer {
+        padding: 70px 80px;
+    }
+
+    .about {
+        padding: 100px 80px;
+    }
+}
+
+@media(max-width: 900px) {
+    .LandingFooter p {
+        display: none;
+    }
+
+    .grid, .Coaches, .Gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-item, .Coaches, .Gallery {
+        display: flex;
+        height: initial;
+        max-width: 500px;
+    }
+
+    .c-item img {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 845px) {
+    .flex-price {
+        max-width: 500px;
+    }
+
+    .price {
+        width: 100%;
+    }
+}
+
+@media(max-width: 750px) {
+    .landing, .navbar, .LandingFooter, .side-top {
+        padding: 0px 60px;
+    }
+
+    .about {
+        padding: 100px 60px;
+    }
+
+    .Footer {
+        padding: 70px 60px;
+    }
+
+    .days {
+        gap: 15px;
+    }
+
+    .table-rows {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 550px) {
+    .landing, .navbar, .LandingFooter, .side-top {
+        padding: 0px 50px;
+    }
+
+    .sidebar ul li a {
+        font-size: 18px;
+    }
+
+    .sidebar ul li:not(:nth-child(1)) {
+        margin-top: 13px;
+    }
+
+    .about {
+        padding: 100px 50px;
+    }
+
+    .Footer {
+        padding: 60px 50px;
+    }
+
+    .lists {
+        gap: 50px;
+    }
+
+    .footer-sn {
+        display: none;
+    }
+
+    .navbar, .LandingFooter {
+        height: 90px;
+    }
+
+    .side-top {
+        min-height: 90px;
+    }
+
+    .LandingPageCenter {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 2em;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links a {
+        justify-content: center;
+    }
+
+    .LandingFooter {
+        justify-content: center;
+    }    
+
+    .block-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .block-links a {
+        justify-content: center;
+    }
+
+    .input-flex {
+        flex-direction: column;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .form-flex, .input-flex {
+        gap: 15px;
+    }
+}
+
+@media(max-width: 450px) {
+    .sn a:nth-child(6) {
+        display: none;
+    }
+
+    .item-text-class, .item-text-coach, .item-text-gallery, .item-text-video {
+        padding: 30px;
+    }
+
+    .contact-info, .contact-form {
+        padding: 40px;
+    }
+}
+
+@media(max-width: 380px) {
+    .landing, .navbar, .LandingFooter, .side-top {
+        padding: 0px 40px;
+    }
+
+    .about {
+        padding: 100px 40px;
+    }
+
+    .Footer {
+        padding: 60px 40px;
+    }
+
+    .icons a {
+        display: none;
+    }
+
+    .sn a:nth-child(5) {
+        display: none;
+    }
+}
+
+@media(max-width: 320px) {
+    .links a i {
+        display: none;
+    }
+
+    .block-link i {
+        display: none;
+    }
+}
+
