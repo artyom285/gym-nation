@@ -177,6 +177,10 @@
         padding: 60px 50px;
     }
 
+    .footer-bottom {
+        margin-top: 60px;
+    }
+
     .lists {
         gap: 50px;
     }
