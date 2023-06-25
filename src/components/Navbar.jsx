@@ -34,14 +34,14 @@ function Navbar() {
           <li><Link to="/contact">Contact Us</Link></li>
         </ul>
         <div className="icons">
-          <a href="#"><box-icon name="user-circle" color="white" size="25px"></box-icon></a>
-          <button onClick={sidebarActive}><box-icon name="menu" color="white" size="25px"></box-icon></button>
+          <a href="#"><box-icon name="user-circle" color="white" size="24px"></box-icon></a>
+          <button onClick={sidebarActive}><box-icon name="menu" color="white" size="24px"></box-icon></button>
         </div>
       </nav>
       <div className={sidebar ? 'sidebar active' : "sidebar"}>
         <div className="side-top">
           <Link to="/" className="logo" onClick={sidebarActive}>Gym Nation</Link>
-          <i className='close-side' onClick={sidebarActive}><box-icon type='solid' name='x-circle' color="white" size="25px"></box-icon></i>
+          <i className='close-side' onClick={sidebarActive}><box-icon type='solid' name='x-circle' color="white" size="24px"></box-icon></i>
         </div>
         <ul>
           <li><Link to="/" onClick={sidebarActive}>Home</Link></li>
