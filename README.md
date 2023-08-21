@@ -20,5 +20,6 @@ Gym membership multiple-page website built using ReactJS. The website includes p
 ## Links
 
 * [Final result](https://gymnation285.netlify.app/)
+* [React Router v6.15.0](https://reactrouter.com/en/main)
 * [Icons](https://boxicons.com/)
 * [Media files resource](https://www.pexels.com/)
