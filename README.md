@@ -2,10 +2,13 @@
 
 # Gymnation
 
-Gym membership multiple page website built by using ReactJS. Additional technologies involved in development process are:
+Gym membership multiple page website built by using ReactJS. The website includes page like: Home, Our Team, Schedule, Pricing, Classes and Contact Us pages. Responsive functionality and sidebar navigation are provided on the website as well depending on screen size. Additional technologies and techniques involved in development process are:
 
 * React Router;
 * React Icons;
+* Props;
+* Hooks (useState hook);
+* Reusable components;
 
 To run the project on your local server simply type:
 
