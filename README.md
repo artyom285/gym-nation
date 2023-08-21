@@ -4,13 +4,13 @@
 
 Gym membership multiple-page website built using ReactJS. The website includes pages like Home, Our Team, Schedule, Pricing, Classes, and Contact Us. Responsive functionality and sidebar navigation are provided on the website as well, depending on screen size. Additional technologies and techniques involved in the development process are:
 
-* React Router;
-* Boxicons;
-* Props;
-* Hooks (useState hook);
-* Flexbox;
-* CSS Grid;
-* Reusable components;
+* React Router
+* Boxicons
+* Props
+* Hooks (useState hook)
+* Flexbox
+* CSS Grid
+* Reusable components
 
 ## Setup
 
