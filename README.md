@@ -10,7 +10,5 @@ Gym membership multiple page website built by using ReactJS. Additional technolo
 To run the project on your local server simply type:
 
 ```
-
 npm run dev
-
 ```
