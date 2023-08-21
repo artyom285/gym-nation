@@ -8,6 +8,8 @@ Gym membership multiple-page website built using ReactJS. The website includes p
 * React Icons;
 * Props;
 * Hooks (useState hook);
+* Flexbox;
+* CSS Grid;
 * Reusable components;
 
 ## Setup
