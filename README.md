@@ -1,8 +1,16 @@
 ![Alt gymnation](https://raw.githubusercontent.com/artyom285/portfolio/master/assets/portfolio/gym-nation.png)
 
-# Gymnation 💪
+# Gymnation
 
 Gym membership multiple page website built by using ReactJS. Additional technologies involved in development process are:
 
 * React Router;
 * React Icons;
+
+To run the project on your local server simply type:
+
+```
+
+npm run dev
+
+```
