@@ -10,8 +10,7 @@ Gym membership multiple-page website built using ReactJS. The website includes p
 * Hooks (useState hook);
 * Reusable components;
 
-To run this project on the local server, simply type in your terminal:
+## Setup
 
-```
-npm run dev
-```
+* Download or clone the repository
+* Run ```npm run dev```
